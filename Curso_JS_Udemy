@@ -1,0 +1,41 @@
+			** CURSO JAVA SCRIPT **
+
+---Luiz Otávio Miranda 
+
+AULA 1 -
+
+ Instalação terminal
+
+		🔸️instalar VSCode
+		🔸️instalar node.js
+
+ instalação extensão vscode
+
+		🔸️code runner
+
+--> faz a ponte entre o node.js e java script que iremos codificar no VSCode
+
+
+-1º comando java script no VSCode
+
+	console.log ('Hello World')
+	
+Podemos testar os comandos diretamente no chrome 
+
+botão direito - inspecionar - aba console
+
+	console.log ('Hello World')
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
