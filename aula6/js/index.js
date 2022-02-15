@@ -17,6 +17,12 @@ idade = 38;
 
 //nome composto utilzamos camelCase
 
+// variáveis são Case-sensitive
+
+// não podemos redeclarar variáveis
+
+// devemos utilizar let em vez de var
+
 console.log(nome, 'tem', idade, 'anos');
 console.log(nome, ' nasceu em 1984');
 console.log('Em 2000', nome, 'conheceu Maria');
