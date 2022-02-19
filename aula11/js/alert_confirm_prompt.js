@@ -16,9 +16,10 @@ const confirma = confirm('apagar realmente?');
 console.log(confirma);
 // no navegador na aba console podemos digitar simplesmente confirma
 
-window.prompt('Digite seu nome:');
+window.prompt('Digite um nº:');
 // quando uma função está dentro de um objeto, chamamos
 // essa função de método, se não for um método do objeto
 // chamamos de função. A grosso modo são todas funções
 
-
+// tudo que o usuário digita no prompt tem como valor uma string
+// neste caso devemos converter
