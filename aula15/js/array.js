@@ -34,5 +34,13 @@ console.log(pessoas instanceof Array); //verifica se é um array
 pessoas = 123; //alteramos nosso array para um number
 console.log(pessoas instanceof Array); // agora retorna false
 
+/*
+valores imutáveis:
+number, string, boolean, undefined, null, symbol e bigint
 
+valores mutáveis:
+arrays, objetos(exceção de null)
+
+Podemos utilizar const para valores mutáveis em JavaScript
+*/
 
