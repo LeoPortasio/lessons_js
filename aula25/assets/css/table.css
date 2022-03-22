@@ -1,0 +1,40 @@
+.responsive-table {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    margin: 0 auto;
+}
+
+table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: left;
+}
+
+table th {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+
+
+table caption {
+    caption-side: bottom;
+    text-align: left;
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+tfoot td,
+table th {
+    background: #ddd;
+}
+
+tfoot td {
+    font-style: italic;
+}
