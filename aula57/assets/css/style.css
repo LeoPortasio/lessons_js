@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat+Alternates:wght@900 & family= Open+Sans:wght@400;700 & display=swap');
+
+:root {
+    --primary-color: rgb(42, 19, 122);
+    --container-color: rgb(103, 103, 212);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+h1 {
+    color: var(--primary-color);
+    margin-left: 3.5em;
+}
+
+p {
+    color: white;
+}
+
+.container {
+    max-width: 64rem;
+    margin: 2em auto;
+    background: var(--container-color);
+    padding: 2em;
+    border-radius: 1rem;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    color: var(--primary-color);
+}
+
+.btn {
+    display: block;
+    color: var(--primary-color);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background: #dfdfdf;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #ceb6b6;
+    color: var(--primary-color);
+}
+
+.btn-eq {
+    background: var(--primary-color);
+    color: blanchedalmond;
+}
+
+form input,
+form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+form label {
+    display: block;
+    width: 100%;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+form input {
+    font-size: 1.3em;
+    height: 2.5rem;
+    padding: 0 0.3rem;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    max-width: 20rem;
+    border: none;
+    background: white;
+    cursor: pointer;
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    margin-top: 3rem;
+}
+
+form button:hover {
+    background: var(--primary-color);
+    color: white;
+}
