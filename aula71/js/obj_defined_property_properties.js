@@ -10,7 +10,7 @@
 //         writable: true, // controla se o valor pode ou não ser alterado
 //         configurable: false // configurável --> se criarmos outro bloco de código
 //         //  igual logo abaixo e aqui fosse false, não seria premitido alterar essa 
-//         //  propriedade do objeto.
+//         //  propriedade do objeto, por exemplo deletar.
 //     });
 // }
 
