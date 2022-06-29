@@ -11,16 +11,49 @@
 // }
 // console.log(numerosConferidos);
 
-const valoresProdutos = [10, 12, 8];
+// let valoresProdutos = [10, 12, 8];
 
-// function calculaPrecos(valoresProdutos) {
-//     try {
+// // function calculaPrecos(valoresProdutos) {
+// //     try {
 
-let somaTotal = 0;
-/***** Não altere os códigos acima *****/
+// let somaTotal = 0;
+// /***** Não altere os códigos acima *****/
 
 
-for (i = 0; i < valoresProdutos.length; i += 1) {
-    somaTotal += valoresProdutos[i];
+// for (i = 0; i < valoresProdutos.length; i += 1) {
+//     somaTotal += valoresProdutos[i];
+// }
+// console.log(somaTotal);
+
+
+// let array = [2, 5, 10, 22, 36, 43, 49, 55, 33, 3, 61];
+// let numerosInseridos = [];
+
+// function insereNumeros() {
+
+//     for (let n = 0; n < array.length; n++) {
+//         if (array[n] % 3 === 0) {
+//             numerosInseridos.push(array[n]);
+//         } else {
+//             numerosInseridos.push(array[n] * 3);
+//         }
+//     }
+// }
+// insereNumeros();
+// console.log(numerosInseridos);
+
+let media = 0;
+let soma = 0;
+const arrayNumeros = [4, 5, 10];
+
+function mediaDosNumeros(arrayNumeros) {
+
+    for (let i = 0; i < arrayNumeros.length; i++) {
+        soma += arrayNumeros[i];
+    }
+    media = soma / arrayNumeros.length;
+    return media;
 }
-console.log(somaTotal);
+console.log(mediaDosNumeros(arrayNumeros));
+
+
